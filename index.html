@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="167Mpho Maake mpmaake022.jpg" alt="Header Image" class="header-image">
+        <h1 class="header-title">Mpho Angel Maake</h1>
+    </header>
+
+    <!-- Me Section -->
+    <section id="about" class="about-section">
+        <div id="intro">
+            <h2>Introduction</h2>
+            <p>Hello and welcome! I'm thrilled to have you here. I am a recent IT graduate with a fervent enthusiasm for software development, sports, and dance. Allow me to take you on a journey through my diverse interests and experiences.<br><br>
+
+                <b>Software Development Journey:</b><br>
+                
+                My journey into the world of software development began during my stagnant years after high school. During this time period, I delved deep into various programming languages, frameworks, and methodologies, cultivating a robust skill set that continues to evolve with each new project. From crafting elegant code to architecting scalable solutions, I thrive on the challenges and intricacies of software development.
+                
+                One of the most rewarding aspects of this field is the opportunity to innovate and problem-solve. Whether it's building sleek user interfaces, optimizing backend algorithms, or debugging intricate systems, I relish the chance to tackle complex challenges head-on and transform ideas into reality.<br><br>
+                
+                <b>Passion for Sports:</b><br>
+                
+                Beyond the confines of the digital realm, you'll often find me immersed in the exhilarating world of sports. From the adrenaline rush of competitive matches to the camaraderie forged on the field, sports have always held a special place in my heart. Whether it's dribbling down the basketball court, sprinting across the soccer field, or perfecting my swing at a cricket field, I revel in the physicality, strategy, and teamwork inherent in athletic pursuits.<br><br>
+                
+                <b>Dance as Expression:</b><br>
+                
+                In addition to my love for sports, dance serves as a powerful form of expression and release. From the graceful movements of contemporary to the infectious rhythms of hip-hop, I find solace and joy in exploring a myriad of dance styles. Each step, twirl, and jump allows me to channel my emotions, express my creativity, and connect with others on a deeper level. Whether it's performing on stage, choreographing routines, or simply dancing for the sheer pleasure of it, I cherish every moment spent on the dance floor.<br><br>
+                
+                <b>Hackathon Triumph:</b><br>
+                
+                One of the defining moments of my journey thus far was my participation in a hackathon, where I had the opportunity to showcase my skills, collaborate with like-minded individuals, and push the boundaries of innovation. Amidst the intense competition and tight deadlines, my team and I persevered, leveraging our collective expertise to develop a groundbreaking solution that garnered recognition and acclaim. Winning the hackathon not only affirmed my technical abilities but also reinforced my belief in the power of teamwork, creativity, and ingenuity.<br><br>
+                
+                <b>Looking Ahead:</b><br>
+                
+                As I embark on the next chapter of my journey, I'm excited to continue pursuing my passions, pushing the boundaries of what's possible, and making a meaningful impact in the world around me. Whether it's developing cutting-edge software, inspiring others through sports, or captivating audiences through dance, I'm committed to embracing every opportunity with passion, dedication, and a relentless pursuit of excellence.<br><br>
+                
+                Thank you for taking the time to learn more about me. I invite you to explore my portfolio, connect with me on social media, and join me on this extraordinary adventure filled with endless possibilities.</p>
+        </div>
+    </section>
+
+    <!-- About Me Section
+    <section id="about" class="about-section">
+        <div id="intro">
+            <h3>Introduction</h3>
+            <p>Welcome! I'm thrilled to present my portfolio, showcasing my journey as a software developer, recent graduate, sports enthusiast, dancer, and hackathon participant. With a fervent passion for technology and a flair for creativity, I bring a unique blend of skills and experiences to the table.</p>
+        </div> -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div id="skills">
+            <h2>Skills</h2>
+            <select id="skills-dropdown">
+                <option value="" disabled selected>Select a skill</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="C#">C#</option>
+                <option value="C/C++">C/C++</option>
+                <option value="PHP">PHP</option>
+                <option value="R">R</option>
+                <option value="Objective-C">Objective-C</option>
+                <option value="Swift">Swift</option>
+                <option value="TypeScript">TypeScript</option>
+                <option value="Cybersecurity">Cybersecurity</option>
+                <option value="Networks">Networks</option>
+                <option value="UX/UI">UX/UI</option>
+                <option value="Communucation">Communication</option>
+                <option value="Problem-solving">Problem-solving</option>
+                <option value="Teamwork">Teamwork</option>
+                <option value="Time-management">Time management</option>
+                <option value="Attention-to-detail">Attention to detail</option>
+                <option value="Self-motivation">Self-motivation</option>
+                <option value="Patience">Patience</option>
+                <option value="Creative-thinking">Creative thinking</option>
+                <option value="Project-planning">Project planning</option>
+                <option value="Adaptability">Adaptability</option>
+                <option value="Mobile-app-development">Mobile app development</option>
+                <option value="Software-development">Software development</option>
+                <option value="Word-processing">Word processing</option>
+                <option value="Machine-learning-and-Artificial-Intelligence">Machine learning and Artificial Intelligence</option>
+                <option value="Scientific-computing">Scientific computing</option>
+                <!-- Add more skills as needed -->
+            </select>
+            <button id="add-skill-btn">Add Skill</button>
+            <ul id="skills-list">
+                <!-- Selected skills will be dynamically added here -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- Documents Section -->
+    <section id="documents" class="documents-section">
+        <div id="documents">
+            <h2>Documents</h2>
+            <label for="resume">Resume:</label>
+            <input type="file" id="resume" accept=".pdf,.doc,.docx">
+            <button id="view-resume-btn">View Resume</button>
+            <br>
+            <label for="cover-letter">Cover Letter:</label>
+            <input type="file" id="cover-letter" accept=".pdf,.doc,.docx">
+            <button id="view-cover-letter-btn">View Cover Letter</button>
+            <br>
+            <label for="certificates">Certificates:</label>
+            <input type="file" id="certificates" multiple accept=".pdf,.jpg,.png">
+            <button id="view-certificates-btn">View Certificates</button>
+        </div>
+        <div id="certificates-gallery" class="'gallery">
+            <!-- Certificate images will be dynamically added here -->
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div id="project-list">
+            <!-- Project items will be dynamically added here -->
+        </div>
+        <button id="add-project-btn">Add Project</button>
+    </section>
+
+    <!-- Project Form Section -->
+    <section id="project-form" class="hidden">
+        <h2>Add Project</h2>
+        <form id="add-project-form">
+            <label for="project-name">Project Name:</label>
+            <input type="text" id="project-name" name="project-name" required>
+            <label for="project-description">Description:</label>
+            <textarea id="project-description" name="project-description" required></textarea>
+            <label for="project-link">Link:</label>
+            <input type="url" id="project-link" name="project-link" required>
+            <button type="submit">Add</button>
+            <button type="button" id="cancel-project-btn">Cancel</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" email="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Photos Section -->
+    <section id="photos" class="photo-section">
+        <h2>Photos</h2>
+        <div id="photos-gallery">
+            <!-- Photos will be dynamically added here -->
+        </div>
+        <form id="add-photo-form">
+            <label for="photo-upload">Upload Photo</label>
+            <input type="file" id="photo-upload" accept="image/*" required>
+            <button type="submit">Add Photo</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="contact-details">
+            <h3>Contact Details</h3>
+            <p>Email: maake@gmail.com</p>
+            <p>Secondary Email: mpmaake022@student.wethinkcode.co.za</p>
+            <p>Phone: +27 67 337 4114</p>
+            <p>LinkedIn: www.linkedin.com/in/mpho-maake-60581b218</p>
+            <p>Instagram: @you.can.call.me.angel</p>
+            <!-- Add more contact details as needed -->
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
